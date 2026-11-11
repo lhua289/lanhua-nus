@@ -46,7 +46,8 @@ Edits are local to the browser, including on the hosted site; they do not
 change GitHub or other viewers' copies. Use export/import to move edits
 between the local HTML and the hosted site.
 
-Slide 6 states the Builder / NUS responsibilities from the supplied reference.
+Slide 6 states delivery of the agreed Builder scope and a working agent
+in the NUS HUB full-copy sandbox, alongside the Builder / NUS responsibilities.
 Slide 10 shows an illustrative business impact model. The assumptions are
 5,000 staff-handled FAQ enquiries/month, 60% agent adoption, 50% resolution
 without staff, and 8 minutes of staff handling time. This gives 1,500 enquiries
