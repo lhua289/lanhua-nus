@@ -25,9 +25,10 @@ Portal sidebar: navigate between the three items; Hide menu collapses it.
 In a presentation:
   Portal: return to the project hub
   Left / Right or Slides / S: navigate
-  Notes / E: edit decisions and To confirm fields
-  Edit behaviours / D in Discovery: capture expected responses and rules
-  Edit design / D in Use Case Design: edit the worked design
+  Edit slides: edit headings, paragraphs, tables and all input fields
+  More > Notes / E: edit decisions and To confirm fields
+  More > Edit behaviours / D in Discovery: capture expected responses and rules
+  More > Edit design / D in Use Case Design: edit the worked design
   More: worksheets, reading view, JSON export/import, save HTML and print
   Present: browser full screen
   Pause motion: stop animations where available
@@ -64,3 +65,19 @@ Keep the portal directory and assets together for offline viewing.
 Print/PDF includes core slides only; worksheet inputs stay in HTML/JSON.
 Enable background graphics and check the browser print preview.
 Headers use NUS and Salesforce logos. Roboto licensing: FONT-LICENSE.txt.
+
+Working with a colleague — no login required
+1. Open the HTML file in a browser. Choose Edit slides, then click the text
+   or table entry to change it.
+2. Choose Done editing to return to presentation mode.
+3. Use More > Save editable HTML to send a complete copy your colleague
+   can open and edit. Or use Export edits (.json), then have your colleague
+   use Import edits (.json) in the same presentation/version.
+
+New JSON exports identify changed fields; untouched defaults do not replace
+local edits. Conflicting changes require confirmation during import. Older
+exports are still supported; review any conflict prompt before importing.
+Send the downloaded HTML file back to the next editor; they can open it and
+continue editing without an account or login. Text editing preserves the
+layout, images and link destinations. Browser edits do not update GitHub. The smoother slide
+transitions remain included and respect motion preferences.
