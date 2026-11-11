@@ -12,6 +12,13 @@ Presentation controls
   Pause motion: stop animation and show the static diagram
   More: reading view, note export/import, save HTML with notes, print/PDF
 
+Audience scope
+The Learner Service Agent supports all four NUS HUB audiences:
+Prospective Student / Learner, Applicant, Student and Alumnus.
+Students and alumni use the confirmed NUS-ID sign-in route. Access routes
+and content entitlements for prospective learners and applicants remain
+to confirm. The business impact volume is a total across all four audiences.
+
 Agent design examples (slides 15–28)
 The 38-slide deck includes component and data-source explanations, an
 editable agent blueprint, and four scripted conversations based on published
