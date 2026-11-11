@@ -12,8 +12,8 @@ Presentation controls
   Pause motion: stop animation and show the static diagram
   More: reading view, note export/import, save HTML with notes, print/PDF
 
-Agent design examples (slides 14–27)
-The 37-slide deck includes component and data-source explanations, an
+Agent design examples (slides 15–28)
+The 38-slide deck includes component and data-source explanations, an
 editable agent blueprint, and four scripted conversations based on published
 NUS guidance: student status letters, transcripts, student / alumni sign-in and
 unresolved service questions. Source links and discovery decisions appear
@@ -24,7 +24,7 @@ and Outcome. A paired configuration example shows the proposed
 sub-agent, actions, data sources/objects, instructions, inputs/outputs and
 validation. Names, groupings and optional custom actions are for discovery.
 
-Use Explore example conversations on slide 18, or Walk through on any
+Use Explore example conversations on slide 19, or Walk through on any
 example slide, to open the full-screen discussion view. Show next turn
 reveals the conversation step by step; Replay example restarts it.
 Edit on slide returns to the editable conversation. Configuration and
@@ -47,7 +47,14 @@ change GitHub or other viewers' copies. Use export/import to move edits
 between the local HTML and the hosted site.
 
 Slide 6 states the Builder / NUS responsibilities from the supplied reference.
-Slide 10 shows an illustrative four-week Gantt. Use Notes to edit the W1–W4
+Slide 10 shows an illustrative business impact model. The assumptions are
+5,000 staff-handled FAQ enquiries/month, 60% agent adoption, 50% resolution
+without staff, and 8 minutes of staff handling time. This gives 1,500 enquiries
+and 200 gross staff hours/month, with 30% of eligible FAQ workload shifted.
+Use Notes to change the inputs; the results and chart update automatically.
+These figures are hypotheses for NUS to validate. Operating effort, cost
+and ramp-up are excluded; the model does not claim cash savings.
+Slide 11 shows an illustrative four-week Gantt. Use Notes to edit the W1–W4
 windows (for example W2 → W3); valid ranges update the bars immediately.
 Activity overlap, owners and exact dates are examples to agree.
 
