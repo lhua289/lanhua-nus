@@ -1,68 +1,66 @@
-NUS HUB × Salesforce Agentforce — Builder Project Hub
+NUS HUB Agentforce — Builder Project Hub
 
-Open index.html to enter the portal. It links to three presentations:
+Open index.html. Three items have separate purposes:
 
-1. Discovery Workshop — kickoff/index.html
-   The approved 18-core-slide Phase 0 deck. Includes business impact,
-   delivery scope, four-week Gantt and the existing on-demand worksheets.
+01 Discovery Workshop — kickoff/index.html
+18 core slides to agree the use-case, audiences, business value, expected
+agent behaviours, requirements, delivery scope, responsibilities and plan.
+Possible risks are highlighted. NUS behaviour expectations and scripted
+conversation examples are edited here. Seven workshop sheets open on demand.
 
-2. Use Case Design — design/index.html
-   Eight slides, starting with the Pre / During / Post swimlane adapted
-   from the Eurokars template. It contains a proposed Agent Blueprint,
-   source/action mapping and admissions, FAQ, access and service-support
-   examples. Configuration sheets and a transcript example open on demand.
-   The design is illustrative and must be validated with NUS.
+02 Use Case Design — design/index.html
+One editable Pre / During / Post Agent Blueprint. Its six supporting sheets
+cover scenario configurations and data/grounding. Sub-agents, actions,
+sources, instructions, inputs/outputs and checks belong here. This is an
+illustrative design to validate with NUS, not inspected org configuration.
+Configuration links from Discovery open the matching sheet in Design.
+The Design sheets link back to the relevant Discovery context.
 
-3. Build & Handover — build-review/index.html
-   Six slides for a future delivery walkthrough: scope, sandbox demo,
-   actual configuration, test evidence and production handover. Completion
-   and test results are To confirm until evidence is captured.
+03 Build Review — build-review/index.html
+A placeholder only. We will update it once the build starts, using the
+working agent, actual configuration and test evidence.
 
-All four NUS HUB audiences are in scope: Prospective Student / Learner,
-Applicant, Student and Alumnus. NUS-ID eligibility, sign-in routes and
-content permissions must be agreed for each audience. The sign-in example
-illustrates an alumnus journey, not the complete access policy.
-
-Presentation controls
+Controls
+Portal sidebar: navigate between the three items; Hide menu collapses it.
+In a presentation:
   Portal: return to the project hub
-  Left / Right arrows: navigate the current presentation
-  Slides / S: choose a slide
+  Left / Right or Slides / S: navigate
   Notes / E: edit decisions and To confirm fields
-  Edit design / D: edit design examples and configuration worksheets
+  Edit behaviours / D in Discovery: capture expected responses and rules
+  Edit design / D in Use Case Design: edit the worked design
+  More: worksheets, reading view, JSON export/import, save HTML and print
   Present: browser full screen
-  Pause motion: stop animations, where available
-  More: worksheets, reading view, export/import, save HTML and print/PDF
+  Pause motion: stop animations where available
 
-Configuration opens the related settings: sub-agent, actions, data,
-instructions, input/output contract and tests. The worksheet selector lets
-you open another sheet. Return to deck preserves your core slide position.
-Walk through opens a scripted conversation; it is not a live agent.
+Walk through in Discovery opens a scripted example, not a live agent.
+Configuration opens the corresponding Design worksheet. Keep entries
+concise for presenting; use reading view for longer notes.
 
-Each presentation saves its notes separately in the current browser.
-Edits do not change GitHub, the original file or other viewers' copies.
-Use Export notes & design to save JSON, or Save HTML with notes for a
-self-contained copy. Import notes into the presentation that exported
-them. Design edits in Discovery and Use Case Design are separate working
-records; reconcile them when agreeing the Agent Blueprint.
-
-Existing hosted discovery notes keep their original storage key. Old
-root-level #slide-N links redirect to the discovery presentation. Local
-file and hosted-site browser storage are separate; use export/import to
-transfer inputs. The original standalone local discovery HTML is retained
-outside this portal package.
-
-Each presentation is self-contained. The portal requires its assets folder;
-keep the directory structure when copying the portal. No installation or
-server is needed to open these HTML files locally.
-
-Print / Save PDF includes the core slides of the selected presentation.
-Worksheets remain in HTML and JSON exports. Enable background graphics
-and check the browser print preview before sharing.
+All four audiences remain in scope: Prospective Student / Learner,
+Applicant, Student and Alumnus. Confirm sign-in routes, NUS-ID eligibility
+and content permissions for every audience. General FAQ guidance does not
+imply permission to retrieve personal records or create cases.
 
 Builder delivers the agreed scope and a working agent in the NUS full-copy
-sandbox, then hands over and supports the move to production. NUS and
-delivery partners own project delivery, approvals, content/environments,
-integrations, rollout, testing and operations.
+sandbox, then supports handover and the move to production. NUS and delivery
+partners own project delivery, approvals, rollout, testing and operations.
 
-NUS and Salesforce / Agentforce brand assets are used for this engagement.
-Embedded Roboto fonts use the licence in FONT-LICENSE.txt.
+Notes and compatibility
+Each presentation saves its own inputs in the current browser. Edits do not
+change GitHub, the original HTML or another viewer's copy. Export JSON or
+save HTML with notes to keep and share them. Import into the presentation
+that exported the file. Local and hosted browser storage are separate.
+
+Earlier Discovery and Design inputs from removed duplicate sections remain
+in exports and saved HTML. They are not automatically merged into another
+presentation. Earlier Build Review browser storage is untouched; if notes
+exist, the placeholder offers an export button.
+
+Old root #slide-N links redirect to Discovery. Older Design slide links now
+open the single blueprint. Each presentation has a Portal link. Saved HTML
+copies link to the hosted portal and related presentation.
+
+Keep the portal directory and assets together for offline viewing.
+Print/PDF includes core slides only; worksheet inputs stay in HTML/JSON.
+Enable background graphics and check the browser print preview.
+Headers use NUS and Salesforce logos. Roboto licensing: FONT-LICENSE.txt.
