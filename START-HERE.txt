@@ -1,0 +1,64 @@
+NUS HUB — Builder Engagement · Phase 0 Discovery
+
+Open index.html in Chrome, Edge, Safari or another modern browser.
+No installation or internet connection is needed to present the deck.
+
+Presentation controls
+  Left / Right arrows: previous / next slide
+  Slides or S: choose a slide
+  Notes or E: edit To confirm fields and discussion notes
+  Edit design or D: edit conversations, rules and configuration examples
+  Present: browser full screen
+  Pause motion: stop animation and show the static diagram
+  More: reading view, note export/import, save HTML with notes, print/PDF
+
+Agent design examples (slides 14–27)
+The 37-slide deck includes component and data-source explanations, an
+editable agent blueprint, and four scripted conversations based on published
+NUS guidance: student status letters, transcripts, student / alumni sign-in and
+unresolved service questions. Source links and discovery decisions appear
+with each example. Source inclusion in HUB / Data Cloud is to confirm.
+
+Each example uses four pillars: Input, Sub-agent filter, Action loop + data,
+and Outcome. A paired configuration example shows the proposed
+sub-agent, actions, data sources/objects, instructions, inputs/outputs and
+validation. Names, groupings and optional custom actions are for discovery.
+
+Use Explore example conversations on slide 18, or Walk through on any
+example slide, to open the full-screen discussion view. Show next turn
+reveals the conversation step by step; Replay example restarts it.
+Edit on slide returns to the editable conversation. Configuration and
+Conversation buttons move between each example and its configuration.
+
+The deck combines NUS branding with the Salesforce wordmark and original
+Agentforce / Astro characters from the Builder slide repository. The
+characters appear on the cover, section dividers and animated knowledge
+journey. Reduced-motion preferences and print output use static visuals.
+
+Workshop notes
+Notes are stored in the current browser when browser storage is available.
+They do not update the original HTML file or synchronise with other viewers.
+Use More > Export notes & design for a JSON backup, including configuration.
+Use More > Save HTML with notes to share a self-contained copy of the deck
+with your recorded decisions. Later edits in that copy remain separate from
+other copies in the same browser.
+Edits are local to the browser, including on the hosted site; they do not
+change GitHub or other viewers' copies. Use export/import to move edits
+between the local HTML and the hosted site.
+
+Slide 6 states the Builder / NUS responsibilities from the supplied reference.
+Slide 10 shows an illustrative four-week Gantt. Use Notes to edit the W1–W4
+windows (for example W2 → W3); valid ranges update the bars immediately.
+Activity overlap, owners and exact dates are examples to agree.
+
+The full-screen conversation walkthrough is a discussion aid, not a live agent.
+Unconfirmed requirements, owners, dates and design decisions are marked
+To confirm. The working release window is late December / early January,
+following the requested four-week example. Exact dates and acceptance
+criteria remain to be agreed.
+
+For PDF output, use More > Print / Save PDF and enable background graphics.
+The browser's native print preview should be checked before sharing a PDF.
+
+NUS and Salesforce / Agentforce branding is used for this engagement deck.
+Embedded Roboto fonts are covered by FONT-LICENSE.txt.
