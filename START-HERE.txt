@@ -1,79 +1,83 @@
 NUS HUB — Builder Engagement · Phase 0 Discovery
 
-Open index.html in Chrome, Edge, Safari or another modern browser.
-No installation or internet connection is needed to present the deck.
+Open index.html in a modern browser. No installation or internet connection
+is needed to present the self-contained deck.
+
+18 core slides
+  01 Cover                         10 Example: answer an FAQ
+  02 Discovery outcomes            11 Example: handle access correctly
+  03 Builder delivery scope        12 Example: continue to service support
+  04 Audiences & first release     13 Controls & operating requirements
+  05 Business impact matrix        14 Acceptance & evidence
+  06 Journey & full-screen UX      15 Four-week delivery example
+  07 Platform & components         16 Risks, dependencies & readiness
+  08 Agent Blueprint               17 Team & decision ownership
+  09 Knowledge & access            18 Decisions & next actions
 
 Presentation controls
-  Left / Right arrows: previous / next slide
-  Slides or S: choose a slide
+  Left / Right arrows: previous / next core slide
+  Slides or S: choose from the 18 core slides
   Notes or E: edit To confirm fields and discussion notes
-  Edit design or D: edit conversations, rules and configuration examples
+  Edit design or D: edit blueprint, conversations, rules and configurations
   Present: browser full screen
   Pause motion: stop animation and show the static diagram
-  More: reading view, note export/import, save HTML with notes, print/PDF
+  More: worksheets, reading view, export/import, save HTML and print/PDF
 
-Audience scope
-The Learner Service Agent supports all four NUS HUB audiences:
-Prospective Student / Learner, Applicant, Student and Alumnus.
-Students and alumni use the confirmed NUS-ID sign-in route. Access routes
-and content entitlements for prospective learners and applicants remain
-to confirm. The business impact volume is a total across all four audiences.
-
-Agent design examples (slides 15–28)
-The 38-slide deck includes component and data-source explanations, an
-editable agent blueprint, and four scripted conversations based on published
-NUS guidance: student status letters, transcripts, student / alumni sign-in and
-unresolved service questions. Source links and discovery decisions appear
-with each example. Source inclusion in HUB / Data Cloud is to confirm.
-
-Each example uses four pillars: Input, Sub-agent filter, Action loop + data,
-and Outcome. A paired configuration example shows the proposed
+On-demand worksheets and examples
+Each four-pillar example has a Configuration button. It opens the proposed
 sub-agent, actions, data sources/objects, instructions, inputs/outputs and
-validation. Names, groupings and optional custom actions are for discovery.
+tests without changing the current core slide. Return to deck closes it.
+The worksheet has its own Notes and Edit design controls.
 
-Use Explore example conversations on slide 19, or Walk through on any
-example slide, to open the full-screen discussion view. Show next turn
-reveals the conversation step by step; Replay example restarts it.
-Edit on slide returns to the editable conversation. Configuration and
-Conversation buttons move between each example and its configuration.
+More > Worksheets & examples opens all 12 worksheets:
+  Four agent configuration sheets; the additional transcript example;
+  data/object/retriever details; value measurement notes; UX decisions;
+  operating requirements; agent boundaries; service handoff; extra notes.
+Use the worksheet selector to switch between them. Configuration and
+Conversation buttons link each example to its configuration sheet.
 
-The deck combines NUS branding with the Salesforce wordmark and original
-Agentforce / Astro characters from the Builder slide repository. The
-characters appear on the cover, section dividers and animated knowledge
-journey. Reduced-motion preferences and print output use static visuals.
+Slide 6 opens the full-screen scripted conversation view. Walk through on
+an example does the same. Show next turn reveals the conversation;
+Replay example restarts it. Edit this example returns to its editable
+slide or worksheet. These are discussion examples, not a live agent.
 
-Workshop notes
-Notes are stored in the current browser when browser storage is available.
-They do not update the original HTML file or synchronise with other viewers.
-Use More > Export notes & design for a JSON backup, including configuration.
-Use More > Save HTML with notes to share a self-contained copy of the deck
-with your recorded decisions. Later edits in that copy remain separate from
-other copies in the same browser.
-Edits are local to the browser, including on the hosted site; they do not
-change GitHub or other viewers' copies. Use export/import to move edits
-between the local HTML and the hosted site.
+Audience, scope and assumptions
+The agent serves Prospective Student / Learner, Applicant, Student and
+Alumnus. Confirm sign-in routes, NUS-ID eligibility and content permissions
+with NUS for every audience. The alumnus sign-in conversation is one
+illustration, not a complete access policy.
 
-Slide 6 states delivery of the agreed Builder scope and a working agent
-in the NUS HUB full-copy sandbox, alongside the Builder / NUS responsibilities.
-Slide 10 shows an illustrative business impact model. The assumptions are
-5,000 staff-handled FAQ enquiries/month, 60% agent adoption, 50% resolution
-without staff, and 8 minutes of staff handling time. This gives 1,500 enquiries
-and 200 gross staff hours/month, with 30% of eligible FAQ workload shifted.
-Use Notes to change the inputs; the results and chart update automatically.
-These figures are hypotheses for NUS to validate. Operating effort, cost
-and ramp-up are excluded; the model does not claim cash savings.
-Slide 11 shows an illustrative four-week Gantt. Use Notes to edit the W1–W4
-windows (for example W2 → W3); valid ranges update the bars immediately.
-Activity overlap, owners and exact dates are examples to agree.
+Slide 3 states delivery of the agreed Builder scope and a working agent
+in the NUS HUB full-copy sandbox, plus handover and support moving to
+production. NUS and delivery partners own rollout, testing and operations.
 
-The full-screen conversation walkthrough is a discussion aid, not a live agent.
-Unconfirmed requirements, owners, dates and design decisions are marked
-To confirm. The working release window is late December / early January,
-following the requested four-week example. Exact dates and acceptance
-criteria remain to be agreed.
+Slide 5 uses editable percentage hypotheses, not NUS results or benchmarks.
+Agree baselines, denominators, measurement windows and targets with NUS.
+Slide 15 is an illustrative four-week Gantt aiming for late Dec / early Jan.
+Use Notes to edit W1–W4 ranges, such as W2 → W3. Exact dates, capacity and
+release conditions remain to agree. Unconfirmed decisions stay To confirm.
 
-For PDF output, use More > Print / Save PDF and enable background graphics.
-The browser's native print preview should be checked before sharing a PDF.
+Workshop notes and compatibility
+All 174 fields from the previous review version are preserved. New source
+access/owner fields and readiness statuses bring the total to 189.
+Earlier notes import into the corresponding topic, including worksheets.
+Slide numbers have changed; old bookmarks may point to a different topic.
+The earlier enquiry/hour calculator fields remain retired and are not
+mapped to the percentage matrix.
+
+Edits are stored in this browser; they do not change GitHub, the original
+HTML file or other viewers' copies. More > Export notes & design saves JSON.
+More > Save HTML with notes creates a self-contained copy with your inputs.
+Use export/import to move inputs between local and hosted copies.
+Shared HTML snapshots keep their later browser edits separate from other
+copies. Keep field entries concise when presenting; Read all slides shows
+longer core notes, and worksheets allow longer configuration entries.
+
+Print / Save PDF includes the 18 core slides only. Enable background
+graphics and check the browser print preview before sharing. Worksheets
+and their notes remain available in HTML and JSON exports.
 
 NUS and Salesforce / Agentforce branding is used for this engagement deck.
+Original Agentforce / Astro visuals and the animated knowledge journey are
+embedded. Reduced-motion preferences and print output use static visuals.
 Embedded Roboto fonts are covered by FONT-LICENSE.txt.
